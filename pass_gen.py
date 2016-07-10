@@ -21,8 +21,4 @@ class SimplePasswordGenerator(object):
     def __next__(self):
         return self.build()    
         
-p = SimplePasswordGenerator()
 
-print (next(p))
-print (next(p))
-print (next(p))
